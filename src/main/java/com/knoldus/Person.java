@@ -1,4 +1,4 @@
-package org.example;
+package com.knoldus;
 public class Person {
 
     private String name;

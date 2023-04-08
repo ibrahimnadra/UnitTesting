@@ -1,5 +1,5 @@
-import org.example.Person;
-import  org.example.InvalidAgeException;
+import com.knoldus.Person;
+import com.knoldus.InvalidAgeException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
