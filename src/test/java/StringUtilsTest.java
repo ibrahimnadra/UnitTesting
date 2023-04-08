@@ -1,5 +1,5 @@
-import org.example.EmptyStringException;
-import org.example.StringUtils;
+import com.knoldus.EmptyStringException;
+import com.knoldus.StringUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
