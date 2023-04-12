@@ -21,7 +21,7 @@ public class PersonTest {
     }
 
     @Test
-    public void testGetAge(){
+    public void testGetAge_givenNullAndNonNullValues_ShouldReturnExpectedValue(){
         //Test the getter method for a non-null value
         assertNotNull(notNullPerson.getAge());
         //Test the getter method for a null value
@@ -29,7 +29,7 @@ public class PersonTest {
     }
 
     @Test
-    public void testGetName(){
+    public void testGetName_givenNullAndNonNullValues_ShouldReturnExpectedValue(){
         //Test the getter method for a non-null value
         assertNotNull(notNullPerson.getName());
         //Test the getter method for a null value
@@ -37,7 +37,7 @@ public class PersonTest {
     }
 
     @Test
-    public void testGetEmail(){
+    public void testGetEmail_givenNullAndNonNullValues_ShouldReturnExpectedValue(){
         //Test the getter method for a non-null value
         assertNotNull(notNullPerson.getEmail());
         //Test the getter method for a null value
@@ -45,7 +45,7 @@ public class PersonTest {
     }
 
     @Test
-    public void testSetAge(){
+    public void testSetAge_givenValidAndInvalidInputs_ShouldSetAgeOrThrowException(){
 
         //Test the setter method with a positive integer
         try {
