@@ -39,7 +39,7 @@ public class StringUtilsTest {
     }
 
     @Test
-    public void testReverse(){
+    public void testReverse_givenString_shouldReturnReversedString(){
         try {
             assertEquals("Testing reverse()", stringUtils.reverse(actualString), reverseExpectedResult);
         } catch (EmptyStringException e) {
@@ -48,12 +48,12 @@ public class StringUtilsTest {
     }
 
     @Test
-    public void testIsEmpty(){
+    public void testIsEmpty_givenString_shouldReturnBoolean(){
         assertEquals("Testing isEmpty()", stringUtils.isEmpty(actualString), isEmptyExpectedResult);
     }
 
     @Test
-    public void testIsPalindrome(){
+    public void testIsPalindrome_givenString_shouldReturnBoolean(){
         try {
             assertEquals("Testing isPalindrome()", stringUtils.isPalindrome(actualString), isPalindromeExpectedResult);
         } catch (EmptyStringException e) {
